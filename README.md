@@ -25,7 +25,7 @@ Use boas práticas de programação e lembre-se de se divertir!
 - Gradle ou Maven
 - Commit do projeto no github
 
-##Segurança
+## Segurança
 
 Usar Token Header com Spring Security para segurança da API que deve
 validar o token em todas as chamadas da API. Dessa forma, somente quem possuir tal
