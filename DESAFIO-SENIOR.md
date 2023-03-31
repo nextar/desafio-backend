@@ -24,6 +24,7 @@ Use boas práticas de programação e lembre-se de se divertir!
 - Spring Boot 2+
 - Gradle ou Maven
 - Commit do projeto no github
+- Colocar Swagger para documentação da API
 
 ## Segurança
 
@@ -67,4 +68,4 @@ Deve: Retornar o valor "11"
 **Caso julgue necessário, sinta-se à vontade para implementar outros
 cenários.
 O prazo para conclusão ideal é de 7 dias corridos a partir da data de envio do
-desafio. Os resultados deverão estar em um repositório privado do Git Hub, dar permissão de acesso para os usuários "uetanabaro" e "AndreiBubolz". Envie o link enviado por mensagem. Enviar também o link da calculadora publicada na AWS||GCP**
+desafio. Os resultados deverão estar em um repositório privado do Git Hub, dar permissão de acesso para os usuários "uetanabaro" e "AndreiBubolz". Envie o link enviado por mensagem. Enviar também o link da calculadora publicada na AWS||GCP juntamente com o link do Swagger da API**
