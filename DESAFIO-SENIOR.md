@@ -33,15 +33,16 @@ token poderá usar a API.
 
 ## Armazenamento
 
-Usar banco H2 em memória
-Usar Spring Data
+Usar banco H2 em memória para testes e produção
+Usar Spring Data para manipular os dados
+
 
 ## Testes automatizados
 
 Usar spring test para validar os cenários abaixo. (Usar JUnit e Spring Test)
 
-- Cenário 1 - Dados que: foi enviada a expressão "2+2". Ao executar a chamada na API
-Deve: Retornar o valor "4"
+- Cenário 1 - Dados que: foi enviada a expressão "(2+2)*3". Ao executar a chamada na API
+Deve: Retornar o valor "12"
 
 - Cenário 2 - Dados que foi enviada a expressão: "2.2+2.2". Ao executar a chamada na API com esse mesmo parâmetro 2 vezes.
 Deve retornar "4.4" em ambas as chamadas e ter usado o resultado previamente gravado no banco na segunda chamada.
@@ -54,10 +55,16 @@ Deve retornar o valor "0.78" (round up)
 
 - Cenário 5 - Dados que: foi enviada a expressão "1/0". Ao executar a chamada na API
 Deve retornar um erro HTTP 40X notificando sobre o erro de cálculo
+ 
+- Cenário 6 - Dados que: foi enviada a expressão "((2*2)+(6*3))/2". Ao executar a chamada na API
+Deve: Retornar o valor "11"
 
-
+ 
+ ## DEPLOY e CI
+ 
+ A calculadora deve ser implantanda em um ambiente AWS ou GCP. Deev ser implementado build e deploy automáticos a cada commit usando GITHUB ACTIONS. Esse deploy deve ser feito automaticamente.
+ 
 **Caso julgue necessário, sinta-se à vontade para implementar outros
 cenários.
-O prazo para conclusão é de 5 dias corridos a partir da data de envio do
-desafio. Os resultados deverão estar em um repositório público do Git Hub e o
-link deverá ser enviado por mensagem.**
+O prazo para conclusão ideal é de 7 dias corridos a partir da data de envio do
+desafio. Os resultados deverão estar em um repositório privado do Git Hub, dar permissão de acesso para os usuários "uetanabaro" e "AndreiBubolz". Envie o link enviado por mensagem. Enviar também o link da calculadora publicada na AWS||GCP**
