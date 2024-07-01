@@ -1,6 +1,6 @@
 
 # Aquela calculadora REST!
-Implementar (de sua autoria) uma calculadora de expressões que receberá as
+Implementar (de sua autoria o algorítmo de cálculo. Sem uso de componentes nessa parte) uma calculadora de expressões que receberá as
 expressões via REST API e efetuará os cálculos. Salvar as expressões enviadas e os
 resultados obtidos no banco de dados H2. Quando uma mesma consulta for enviada,
 usar o resultado já calculado previamente.
