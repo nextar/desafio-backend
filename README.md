@@ -56,8 +56,9 @@ Deve retornar o valor "0.78" (round up)
 Deve retornar um erro HTTP 40X notificando sobre o erro de cálculo
 
 
-**Caso julgue necessário, sinta-se à vontade para implementar outros
-cenários.
-O prazo para conclusão é de 5 dias corridos a partir da data de envio do
-desafio. Os resultados deverão estar em um repositório público do Git Hub e o
-link deverá ser enviado por mensagem.**
+---
+
+1. Esta etapa é importante para podermos entender qual o seu nível técnico, validar a aderência aos requisitos e também para definir qual a sua faixa de senioridade.
+2. O resultado do desafio será utilizado somente para o processo seletivo, não utilizaremos seu código para o Nex. 
+3. As únicas pessoas que terão acesso ao seu desafio são a recrutadora, gestão e equipe de Backoffice. 
+4. O prazo de entrega é definido por você após avaliar o escopo do desafio.
